@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quiz_app/start_screen.dart';
 
 class Quiz extends StatefulWidget {
   const Quiz({super.key});
@@ -14,7 +15,8 @@ class _QuizState extends State<Quiz> {
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: Scaffold(
-        body: Text('Start Screen'),
+        backgroundColor: Color(0xFF121418),
+        body: StartScreen(),
       ),
     );
   }
